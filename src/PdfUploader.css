@@ -1,0 +1,11 @@
+.pdf-uploader input[type="file"] {
+    margin-top: 20px; /* Adjust margin as needed */
+  }
+  
+  /* Additional styles for h1 */
+  .pdf-uploader h1 {
+    font-size: 24px;
+    color: #333; /* Adjust color as needed */
+  }
+  
+  

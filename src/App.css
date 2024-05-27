@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(227,227,227);
+  display: flex;
+  justify-content: end;
+  height: 100vh;
+  align-items: end;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2, h3 {
+  margin: 5px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.chat-container {
+  margin: 40px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.chat-bot {
+  position: relative;
+  height: 595px; /* Increased height */
+  width: 500px;  /* Increased width */
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px 20px 0 0;
+  box-shadow: rgba(0,0,0,0.16) 0 10px 36px, rgba(0,0,0,0.06) 0 0 0 1px;
+  overflow: hidden;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.info-container {
+  height: 60px;
+  background: linear-gradient(rgb(22, 197, 141), rgb(6, 120, 84));
+  padding: 25px;
+  color: rgb(244, 244, 244);
+  font-family: 'Montserrat', sans-serif;
+}
+
+textarea {
+  position: absolute;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  bottom: 0;
+  left: 0;
+  border: none;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 25px 70px 25px 25px;
+  border-top: 1px solid rgb(207,207,207);
+}
+
+textarea:focus {
+  outline: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+button {
+  height: 40px;
+  width: 75px;
+  border-radius: 50%;
+  background-color: rgb(22, 197, 141);
+  color: rgb(244, 244, 244);
+  position: absolute;
+  bottom: 21px;
+  right: 21px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px; /* Adjust font size if needed */
+  font-weight: bold; /* Make the font bold */
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 2px 4px; /* Add subtle shadow */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+}
+
+button:hover {
+  background-color: rgb(18, 158, 112); /* Darker shade on hover */
+  transform: scale(1.05); /* Slightly larger on hover */
+}
+
+button:active {
+  background-color: rgb(16, 142, 101); /* Even darker shade on click */
+  transform: scale(0.95); /* Slightly smaller on click */
+}
+
+.bubble {
+  padding: 20px;
+  margin: 10px 25px;
+  border-radius: 10px;
+  box-shadow: rgba(0,0,0,0.24) 0 3px 8px;
+  color: rgb(74, 74, 74);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.question {
+  background-color: rgb(244, 244, 244);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.response {
+  margin-left: 85px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.chat-header {
+  position: relative;
+  z-index: 1;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.feed {
+  position: absolute;
+  bottom: 82px;
+  left: 0;
+  width: 100%;
+  height: 400px; /* Increased height */
+  overflow-y: scroll;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.left-align {
+  position: fixed;
+  top: 50px; /* Adjust this value as needed */
+  left: 40px; /* Adjust this value as needed */
+  font-family: 'Montserrat', sans-serif;
+}
+
+.left-align h1 {
+  font-size: 24px;
+  color: #333; /* Adjust color as needed */
+  font-family: 'Montserrat', sans-serif;
+}
+
+.left-align .styled-button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.left-align .styled-button:hover {
+  background-color: #45a049;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.left-align .styled-button:active {
+  background-color: #3e8e41;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+
